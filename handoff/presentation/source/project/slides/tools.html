@@ -1,0 +1,13 @@
+<section id="tools" data-transition="fade" style="background:#15302A;color:#FBF6EA;font-family:'Nunito Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:26px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#FFC23A">How we built it</p>
+<h2 style="font-family:'Fredoka', Arial, sans-serif;font-size:64px;font-weight:600;line-height:1.1;color:#FBF6EA">A static web page that runs on any phone, even offline</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#21453C;padding:32px;border-radius:20px"><h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:34px;font-weight:600;color:#9FE08F">Game</h3><p style="font-size:26px;line-height:1.4;color:#D6E6DC">Vite, React 18 and TypeScript; three.js with React Three Fiber. One-file build of 13.5 MB that also plays offline.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#21453C;padding:32px;border-radius:20px"><h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:34px;font-weight:600;color:#8CC8F5">Data and model</h3><p style="font-size:26px;line-height:1.4;color:#D6E6DC">Public datasets on one 5 m grid of 211 × 280 cells. The model is plain TypeScript, with tests that reach every ending.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#21453C;padding:32px;border-radius:20px"><h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:34px;font-weight:600;color:#FFD27A">Art</h3><p style="font-size:26px;line-height:1.4;color:#D6E6DC">Higgsfield: GPT Image 2.5 character art, Meshy 7 image-to-3D with auto-rigging, six shared moves. Slimmed with gltf-transform to about 2.8 MB.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#21453C;padding:32px;border-radius:20px"><h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:34px;font-weight:600;color:#FFB089">Testing and AI help</h3><p style="font-size:26px;line-height:1.4;color:#D6E6DC">Playwright playtests at laptop and phone sizes; independent review rounds; Claude for research, code, copy and bug audits.</p></div>
+</div>
+<aside>The whole game is a static page: no server, no accounts, no data collected. It loads public data once and runs the model in the browser, so it also works as one offline file. Characters were generated with Higgsfield, turned into rigged 3D models with Meshy, and share one set of animations. We tested with automated playthroughs on desktop and phone screens.</aside>
+</section>

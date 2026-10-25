@@ -1,0 +1,26 @@
+<section id="model" data-transition="fade" style="background:#FBF6EA;color:#1F3A2C;font-family:'Nunito Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:26px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#D9622B">The model</p>
+<h2 style="font-family:'Fredoka', Arial, sans-serif;font-size:64px;font-weight:600;line-height:1.1;color:#1F3A2C">A small teaching model computes every outcome</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:36px;border-radius:20px;border:2px solid #E7DEC8">
+<h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:36px;font-weight:600;color:#3E8E33">Seedlings</h3>
+<p style="font-size:27px;line-height:1.4;color:#33463C">A daily soil-water balance (FAO-56 style) on the real rain. Survival comes from the days of severe thirst in the first year.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:36px;border-radius:20px;border:2px solid #E7DEC8">
+<h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:36px;font-weight:600;color:#2F7FD0">Storm runoff</h3>
+<p style="font-size:27px;line-height:1.4;color:#33463C">Each 5 m cell makes runoff hour by hour (SCS curve number). Water follows the steepest path down the lidar to a garden or the drain.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:36px;border-radius:20px;border:2px solid #E7DEC8">
+<h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:36px;font-weight:600;color:#2F7FD0">Gardens and tanks</h3>
+<p style="font-size:27px;line-height:1.4;color:#33463C">Buckets that fill, overflow, soak in and drain. Water let out later through a pipe still counts as reaching the drain.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:36px;border-radius:20px;border:2px solid #E7DEC8">
+<h3 style="font-family:'Fredoka', Arial, sans-serif;font-size:36px;font-weight:600;color:#D9622B">Land check</h3>
+<p style="font-size:27px;line-height:1.4;color:#33463C">Inspired by Land Degradation Neutrality: each kind of land against doing nothing, no offsetting between kinds. Erosion is a relative index.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7A72">Not modelled: flooding downstream, pipes, groundwater, fire, species or animal numbers. Tests check that every ending can be reached.</p>
+<aside>The model is deliberately small and explainable. Seedlings live or die by a daily soil-water balance on the recorded rain. Storm runoff is computed hour by hour for every 5 m cell and routed down the real terrain. Rain gardens and tanks are simple buckets. The land check borrows the idea of Land Degradation Neutrality. It is a teaching version, not an official assessment.</aside>
+</section>
